@@ -1,5 +1,5 @@
 ﻿/*
-Theme Name: mysecondTry
+Theme Name: myGitWebPage
 Author: kpv15
 
 */
@@ -51,6 +51,7 @@ html, body {
 	position: fixed;
 	right: 0;
 	top: 0;
+	margin-top: 50px;
 	width: 10%;
 	height: 100%;
 	background-color: #006c42;	
