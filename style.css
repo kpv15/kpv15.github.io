@@ -1,0 +1,93 @@
+﻿/*
+Theme Name: mysecondTry
+Author: kpv15
+
+*/
+
+html, body {
+	background-color: #101010;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	min-width: 480px;
+	margin: 0 !important;
+}
+/*górne menu*/
+#navigation{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	background-color: #008e57;
+	text-align: right;
+	height: 50px;
+}
+#navigation>ul{
+	padding: 0 10px;
+	margin: 0;
+	display: inline-block;
+	list-style-type: none;
+}
+#navigation>ul>li{
+	line-height: 50px;
+	width: auto;
+	padding:0 10px;
+	float: left;
+	min-width:50px
+}
+#navigation>ul>li:hover{
+	background-color: #005f3a;
+}
+#navigation>ul>li:hover>a{
+	color: #ff6130;
+}
+#navigation>ul>li>a{
+	color: #ffffff;
+	text-decoration: none;
+}
+/*prawy sidebar*/
+#rightSidebar{
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 10%;
+	height: 100%;
+	background-color: #006c42;	
+}
+
+/*wlasciwa strona*/
+#container{
+	margin-top: 50px;
+	margin-left: 0;
+	margin-right: auto;
+	width: 90%;
+}
+/*tytuł*/
+#header{
+	height: 50px;
+	padding:10px 30px;
+	font-size: 40px;
+	background-color: #ff6130;
+	border: 1px solid #b54522;
+}
+/*wlasciwa tresc*/
+.article{
+	text-align: justify;
+	margin: 0px 10px;
+}
+
+/*stopka*/
+#footer{
+	text-align: right;
+	width: 100%;
+	background-color: #008e57;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+}
+#footer>span{
+	margin: 0;
+	padding:0px 10px;
+}
