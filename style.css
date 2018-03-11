@@ -29,20 +29,22 @@ html, body {
 	display: inline-block;
 	list-style-type: none;
 }
-#navigation>ul>li{
+#navigation>ul>a{
 	line-height: 50px;
 	width: auto;
 	padding:0 10px;
 	float: left;
-	min-width:50px
+	min-width:50px;
+	text-decoration: inherit;
+	color: inherit;
 }
-#navigation>ul>li:hover{
+#navigation>ul>a:hover{
 	background-color: #005f3a;
 }
-#navigation>ul>li:hover>a{
+#navigation>ul>a:hover{
 	color: #ff6130;
 }
-#navigation>ul>li>a{
+#navigation>ul>a{
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -52,11 +54,14 @@ html, body {
 	right: 0;
 	top: 0;
 	margin-top: 50px;
-	width: 12%;
+	width: 5%;
 	height: 100%;
 	background-color: #006c42;	
 }
-#rightSidebar>a{
+#rightSidebar:hover{
+	width: 12%;
+}
+#rightSidebar>div>a{
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
@@ -69,7 +74,7 @@ html, body {
 	margin-top: 50px;
 	margin-left: 0;
 	margin-right: auto;
-	width: 88%;
+	width: 95%;
 }
 /*tytuł*/
 #header{
@@ -101,9 +106,17 @@ html, body {
 	padding:0px 10px;
 }
 
+#socials{	
+}
 #facebook{
 	background-color: #4080FF;
 }
+#facebook:hover{
+	background-color: #1850CF;
+}
 #github{
 	background-color: #F34F29;
+}
+#github:hover{
+	background-color: #C31F09;
 }
